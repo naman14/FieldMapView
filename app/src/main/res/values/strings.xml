@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FieldMapView</string>
+
+    <string-array name="nav_drawer_items">
+
+        <item >Schools</item>
+        <item >Districts</item>
+    </string-array>
+
+
+    <array name="nav_drawer_icons">
+        <item></item>
+        <item></item>
+    </array>
+</resources>
