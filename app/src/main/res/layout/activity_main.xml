@@ -25,7 +25,6 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_gravity="start"
-        android:layout_marginTop="25dp"
         >
 
         <!-- Header Start -->
