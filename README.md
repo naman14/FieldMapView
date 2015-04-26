@@ -10,6 +10,7 @@ can insert the data in any way you like.
 
 <img src="https://raw.githubusercontent.com/naman14/FieldMapView/master/graphics/Screenshot_2015-04-26-19-13-00.png" alt="alt text" width="300" height="500">
 <img src="https://raw.githubusercontent.com/naman14/FieldMapView/master/graphics/Screenshot_2015-04-26-19-12-36.png" alt="alt text" width="300" height="500">
+<img src="https://raw.githubusercontent.com/naman14/FieldMapView/master/graphics/graphic1.gif" alt="alt text" width="300" height="500">
 
 Google Play Link
 =================
