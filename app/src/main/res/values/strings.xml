@@ -9,7 +9,7 @@
 
 
     <array name="nav_drawer_icons">
-        <item></item>
-        <item></item>
+        <item>@drawable/rsz_ic_school</item>
+        <item>@drawable/rsz_ic_districts</item>
     </array>
 </resources>

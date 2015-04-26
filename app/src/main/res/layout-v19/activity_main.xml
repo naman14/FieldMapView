@@ -35,7 +35,7 @@
                 <ImageView
                     android:id="@+id/header"
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
+                    android:layout_height="250dp"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentTop="true"
                     android:adjustViewBounds="true"
@@ -77,6 +77,7 @@
                 android:layout_gravity="start"
                 android:choiceMode="singleChoice"
                 android:divider="@color/list_divider"
+                android:paddingTop="7dp"
                 android:dividerHeight="1dp"
                 android:listSelector="@drawable/list_selector"
                 android:background="@color/list_background"/>
