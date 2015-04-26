@@ -59,6 +59,8 @@ public class DistrictsFragment extends Fragment {
 
         final View v = inflater.inflate(R.layout.fragment_maps, container, false);
 
+        mMap = ((SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.map)).getMap();
+
         mRecyclerView=(RecyclerView) v.findViewById(R.id.recycler_view);
         spinner=(Spinner)getActivity().findViewById(R.id.spinner_nav);
         spinner.setVisibility(View.VISIBLE);
@@ -128,6 +130,7 @@ public class DistrictsFragment extends Fragment {
 
     public void doneFetching(List<ParseObject> objects) {
 
+            mMap.clear();
         for (ParseObject item : objects) {
 
             DistrictData itemData = new DistrictData();
@@ -236,7 +239,7 @@ public class DistrictsFragment extends Fragment {
     }
 
     private void addToMap(String latlong,String title){
-        mMap = ((SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.map)).getMap();
+
 
 
         MarkerOptions markerOptions;
