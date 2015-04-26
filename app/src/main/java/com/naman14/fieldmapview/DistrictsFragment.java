@@ -47,7 +47,7 @@ public class DistrictsFragment extends Fragment {
     Toolbar toolbar;
 
 
-    ArrayList<DistrictData> list = new ArrayList<DistrictData>();
+    ArrayList<DistrictData> listdistricts = new ArrayList<DistrictData>();
 
 
 
@@ -77,7 +77,9 @@ public class DistrictsFragment extends Fragment {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
 
-
+                if (listdistricts!=null){
+                    listdistricts.clear();
+                }
                 fetchData(list.get(i));
 
 
@@ -144,10 +146,10 @@ public class DistrictsFragment extends Fragment {
 
             }
 
-            list.add(itemData);
+            listdistricts.add(itemData);
         }
 
-        myAdapter=new DistrictAdapter(getActivity(),list);
+        myAdapter=new DistrictAdapter(getActivity(),listdistricts);
 
         mRecyclerView.setAdapter(myAdapter);
 
